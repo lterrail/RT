@@ -1,0 +1,37 @@
+scene
+{
+	param
+	{
+		shader:default;
+		depth:20;
+		antialiasing:1;
+		blindlight:0;
+	}
+	camera
+	{
+		position:0;0;0;
+		direction:0;0;0;
+	objects
+	{
+		quadric
+		{
+			type:plan;
+			shine:1;
+			specularity:50;
+			normal:1;0;0;
+			direction:0;0;0;
+			position:-15;0;0;
+			color:111;255;159;
+			reflection:0.3;
+		}
+	}
+	lights
+	{
+		light
+		{
+			intensity:1000;
+			position:0;-3;-10;
+			color:200;200;200;
+		}
+	}
+}

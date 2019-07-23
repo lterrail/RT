@@ -1,0 +1,24 @@
+scene
+{
+	param
+	{
+		shader:default;
+		depth:20;
+		antialiasing:1;
+		blindlight:0;
+	}
+	camera
+	{
+		position:0;0;0;
+		direction:0;0;0;
+	}
+	lights
+	{
+		light
+		{
+			intensity:1000;
+			position:0;-3;-10;
+			color:200;200;200;
+		}
+	}
+}

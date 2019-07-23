@@ -1,0 +1,47 @@
+scene
+{
+	param
+	{
+		shader:default;
+		depth:20;
+		antialiasing:1;
+		blindlight:0;
+	}
+	camera
+	{
+		position:0;0;0;
+		direction:0;0;0;
+	}
+	objects
+	{
+		mesh
+		{
+			path:./ressources/obj/umbreon.obj;
+			shine:1;
+			reflection:1.0;
+			direction:0;-45;180;
+			position:0;0;-10;
+			color:150;50;0;
+		}
+		quadric
+		{
+			type:sphere;
+			shine:1;
+			specularity:50;
+			texture:skybox;
+			path:./ressources/bmp/skybox.bmp;
+			direction:;0;0;-90;
+			position:0;0;0;
+			color:255;0;0;
+		}
+	}
+	lights
+	{
+		light
+		{
+			intensity:8000;
+			position:0;-500;-3000;
+			color:200;200;200;
+		}
+	}
+}

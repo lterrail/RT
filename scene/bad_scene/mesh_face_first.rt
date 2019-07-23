@@ -1,0 +1,34 @@
+scene
+{
+	param
+	{
+		shader:default;
+		depth:20;
+		antialiasing:1;
+		blindlight:0;
+	}
+	camera
+	{
+		position:0;0;0;
+		direction:0;0;0;
+	}
+	objects
+	{
+		mesh
+		{
+			path:./mesh_face_first.obj;
+			direction:-45;30;-40;
+			position:0;0;-20;
+			color:255;255;255;
+		}
+	}
+	lights
+	{
+		light
+		{
+			intensity:1000;
+			position:0;-3;-10;
+			color:200;200;200;
+		}
+	}
+}
